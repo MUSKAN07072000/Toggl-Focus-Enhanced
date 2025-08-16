@@ -1,0 +1,5 @@
+{
+  "name": "Toggl Focus Enhanced",
+  "description": "An enhanced prototype of Toggl Focus, incorporating user-requested features like project/tag selection, session goals, soundscapes, and an intelligent feedback system powered by Gemini. This app aims to provide a seamless, distraction-free time tracking experience.",
+  "requestFramePermissions": []
+}

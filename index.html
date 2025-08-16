@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggl Focus Enhanced</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'toggl-pink': '#E57CD8',
+              'toggl-purple': '#B884F3',
+              'toggl-dark': '#2D263D',
+              'toggl-gray': '#413A51',
+              'toggl-light-gray': '#C5C1CF',
+              'toggl-bg': '#1B1527',
+              'toggl-card': '#261F35',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .demo-highlight {
+        box-shadow: 0 0 0 3px rgba(229, 124, 216, 0.7), 0 0 15px rgba(229, 124, 216, 0.5);
+        border-radius: 12px;
+        transition: box-shadow 0.3s ease-in-out;
+        position: relative;
+        z-index: 10; 
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.14.0",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body style="font-family: 'Inter', sans-serif;">
+    <div id="root"></div>
+  </body>
+</html>
